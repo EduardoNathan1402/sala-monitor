@@ -1,0 +1,80 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.tmp
+*.temp
+Thumbs.db
+Desktop.ini
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional local settings)
+.vscode/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
+
+# Native / ephemeral generated
+**/windows/flutter/ephemeral/
+**/ios/Flutter/.last_build_id
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+# Local data / exports / scratch
+dados/
+C_SalaMonitor_dados/
+metricas_powerbi.csv
+hosts_rede.csv
+ultimo_snapshot.json
+teste_powerbi_resultado.csv
+*.pbix
+
+# Internal / session notes (not for public repo)
+PROMPT-CONTINUIDADE*.txt
+O-QUE-FAZER-AMANHA.txt
+TITULOS-POWERBI.txt
+TUTORIAL.txt
+
+# OS / backups
+*~
+*.bak
+*.old
